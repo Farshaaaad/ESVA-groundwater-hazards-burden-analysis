@@ -149,7 +149,7 @@ The final analytical data will be archived in a trusted repository such as the U
 **Data DOI:**  [https://doi.org/10.5281/zenodo.21693760](https://doi.org/10.5281/zenodo.21693760)
 
 The ArcGIS Online item may be linked as an interactive, read-only visualization, but it does not replace the archived analytical data.
-https://services2.arcgis.com/8k2PygHqghVevhzy/arcgis/rest/services/ESVA_Groundwater_Hazards_and_Human_Burdens_%E2%80%94_WRR_Review/FeatureServer
+[https://uvalibrary.maps.arcgis.com/home/item.html?id=80765d3e6e274c168e38e3184800f534](https://uvalibrary.maps.arcgis.com/home/item.html?id=80765d3e6e274c168e38e3184800f534)
 
 ```bash
 python code/99_make_checksums.py --root .
