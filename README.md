@@ -11,7 +11,7 @@ Python and ArcPy workflows supporting the manuscript:
 
 ## Overview
 
-This repository contains the final computational workflows used to derive and summarize census-block-level groundwater hazard, exposure, risk-intensity, absolute-burden, and equity-weighted-burden metrics for the Eastern Shore of Virginia.
+This repository contains the post-processing and analytical workflows used to calculate and summarize census-block-level groundwater hazard, exposure, risk-intensity, absolute-burden, and equity-weighted-burden metrics for the Eastern Shore of Virginia.
 
 The manuscript provides the scientific rationale and methodological description. This repository provides the executable implementation, quality-assurance outputs, table-generation code, and selected figure-generation code.
 
