@@ -1,0 +1,29 @@
+{
+  "title": "ESVA Groundwater Hazards and Infrastructure Burden Analysis",
+  "description": "Python and ArcPy workflows supporting the analysis of groundwater hazards, decentralized infrastructure exposure, risk intensity, absolute burden, and equity-weighted burden on Virginia's Eastern Shore.",
+  "creators": [
+    {
+      "name": "Hesamfar, Farshad",
+      "affiliation": "University of Virginia",
+      "orcid": "0000-0002-5733-8868"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "groundwater",
+    "coastal aquifer",
+    "seawater intrusion",
+    "onsite wastewater",
+    "social vulnerability",
+    "infrastructure burden"
+  ],
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.1016/j.jhydrol.2026.135003",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}

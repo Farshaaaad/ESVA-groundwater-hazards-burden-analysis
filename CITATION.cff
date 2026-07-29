@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this software using the citation below."
+title: "ESVA Groundwater Hazards and Infrastructure Burden Analysis"
+type: software
+authors:
+  - family-names: "Hesamfar"
+    given-names: "Farshad"
+    orcid: "https://orcid.org/0000-0002-5733-8868"
+    affiliation: "University of Virginia"
+version: "1.0.0"
+date-released: "2026-07-29"
+license: "MIT"
+repository-code: "https://github.com/Farshaaaad/ESVA-groundwater-hazards-burden-analysis"
+abstract: >
+  Python and ArcPy workflows used to calculate census-block groundwater
+  hazard classifications, risk intensity, absolute burden, equity-weighted
+  burden, service-status summaries, representation ratios, and selected
+  figures for Virginia's Eastern Shore.
+keywords:
+  - groundwater
+  - coastal aquifers
+  - seawater intrusion
+  - onsite wastewater
+  - social vulnerability
+  - infrastructure burden
