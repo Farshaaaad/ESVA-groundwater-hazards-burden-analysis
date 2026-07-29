@@ -73,7 +73,7 @@ python -m pip install -r requirements.txt
 
 ### Step 1. Area-weighted groundwater summaries
 
-When the model-grid and census-block intersection data are available, calculate block-area-weighted groundwater fields with:
+When the model-grid and census-block intersection  are available, calculate block-area-weighted groundwater fields with:
 
 ```bash
 python code/00_area_weighted_block_aggregation_arcpy.py   --intersect-fc "path/to/model_block_intersection"   --blocks-fc "path/to/census_blocks"   --value-fields "field_1;field_2;field_3"   --output-table "path/to/output.gdb/AreaWeightedStats"   --join-results
@@ -111,7 +111,7 @@ Relative change is set to zero when the 2023 baseline chloride concentration is 
 
 ### Step 3. Export the corrected analytical feature
 
-Export the corrected feature class as a CSV, Excel workbook, GeoPackage, or zipped file geodatabase. The tabular scripts accept CSV and Excel inputs.
+Export the corrected feature class as a CSV, Excel workbook, GeoPackage, or zipped file geobase. The tabular scripts accept CSV and Excel inputs.
 
 ### Step 4. Recalculate metrics and source tables
 
@@ -142,14 +142,14 @@ Burden outputs are weighted units, not literal counts of failed systems or affec
 
 ## Data availability
 
-The GitHub repository should contain only code, documentation, and small nonrestricted source tables.
+The GitHub repository contains only code and documentation.
 
-The final analytical data should be archived in a trusted repository such as the University of Virginia LibraData repository and cited using its permanent DOI. Replace the placeholder below after the record is created:
+The final analytical data will be archived in a trusted repository such as the University of Virginia LibraData repository and cited using its permanent DOI. Will replace the placeholder below after the record is created:
 
 **Data DOI:** `TO_BE_ADDED`
 
 The ArcGIS Online item may be linked as an interactive, read-only visualization, but it does not replace the archived analytical data.
-
+https://services2.arcgis.com/8k2PygHqghVevhzy/arcgis/rest/services/ESVA_Groundwater_Hazards_and_Human_Burdens_%E2%80%94_WRR_Review/FeatureServer
 
 ```bash
 python code/99_make_checksums.py --root .
